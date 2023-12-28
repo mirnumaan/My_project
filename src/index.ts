@@ -1,5 +1,5 @@
 import {server as WebSocketServer } from "websocket";
-var http = require('http');
+import http from 'http'
 
 var server = http.createServer(function(request: any , response:any) {
     console.log((new Date()) + ' Received request for ' + request.url);
